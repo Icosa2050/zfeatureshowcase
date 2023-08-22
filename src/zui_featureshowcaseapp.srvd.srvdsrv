@@ -1,0 +1,14 @@
+@EndUserText.label: 'Feature ShowcaseApp'
+define service ZUI_FeatureShowcaseApp {
+  expose ZFSA_C_ROOTTP       as Root;
+  expose ZFSA_C_CHILDTP      as Child;
+  expose ZFSA_C_CHARTTP      as Chart;
+  expose ZFSA_C_GRANDCHILDTP as Grandchild;
+  expose ZFSA_I_CONTACT      as Contact;
+  expose ZFSA_I_CRITICALITY  as Criticality;
+  expose ZFSA_I_NAVIGATION   as Navigation;
+  expose I_Country           as Country;
+  expose I_UnitOfMeasure     as UnitOfMeasure;
+  expose I_Currency          as Currency;
+  expose I_Region            as Region;
+}
